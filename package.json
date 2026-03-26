@@ -35,7 +35,6 @@
         "lint:fix": "eslint src --fix --ext .js,.ts,.jsx,.tsx",
         "prepack": "",
         "prepare": "",
-        "preinstall": "node ./engine-requirements.js",
         "release": "release-it",
         "test": "jest"
     },
@@ -51,7 +50,7 @@
         "futoin-hkdf": "^1.5.1",
         "libphonenumber-js": "^1.10.20",
         "lodash": "^4.17.21",
-        "libsignal": "npm:@shennmine/libsignal-node@2.0.1",
+        "libsignal": "^2.0.1"
         "music-metadata": "^7.12.3",
         "node-cache": "^5.1.2",
         "node-fetch": "^2.6.1",
@@ -102,8 +101,7 @@
             "optional": true
         }
     },
-    "packageManager": "yarn@1.22.19",
     "engines": {
-        "node": ">=20.0.0"
+        "node": ">=18"
     }
 }
